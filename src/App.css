@@ -1,0 +1,24 @@
+.main-container {
+    height: 98dvh;
+}
+
+.file-code-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(120deg, #4f3af6, #aa27da) !important;
+
+}
+
+.head-title{
+    color: transparent;
+    background-clip: text;
+    font-size: 42px;
+    font-weight: 800;
+    background-image: linear-gradient(120deg, #4f3af6, #aa27da) !important;
+    margin: 20px 0 10px 0;
+
+}
