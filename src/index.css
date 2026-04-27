@@ -1,0 +1,12 @@
+body {
+    background-color: #fcf3f9;
+    font-family:sans-serif;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 3px 7px 20px 1px rgba(131, 130, 131, 0.244);
+    width: 500px;
+    min-height: 400px;
+}
