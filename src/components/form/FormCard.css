@@ -1,0 +1,6 @@
+.generate-button {
+    background-image: linear-gradient(to right, rgba(216, 215, 215, 0.382), rgb(169, 168, 168)) !important;
+    height: 50px;
+    width: 100%;
+    border-radius: 16px;
+}

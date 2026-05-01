@@ -1,6 +1,6 @@
 body {
     background-color: #fcf3f9;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
 .card-container {
@@ -8,5 +8,17 @@ body {
     border-radius: 16px;
     box-shadow: 3px 7px 20px 1px rgba(131, 130, 131, 0.244);
     width: 500px;
-    min-height: 400px;
+    height: 368px;
+}
+
+.input-field {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #e5e7eb;
+    border-radius: 16px;
+    height: 44px;
+}
+
+.input-label {
+    color: #666f81da;
 }
