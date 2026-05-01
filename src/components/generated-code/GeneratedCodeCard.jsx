@@ -1,10 +1,9 @@
-
 import "./GeneratedCodeCard.css";
 
 function GeneratedCodeCard() {
   return (
     <>
-      <div className="card-container mr-6 pa-5">
+      <div className="card-container generated-code-card-container pa-7">
         <div className="d-flex align-items-center justify-space-between">
           <div className="dark-purple-color font-weight-800 fs-17">Generated JSON</div>
           <div>

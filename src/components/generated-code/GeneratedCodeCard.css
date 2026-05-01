@@ -1,6 +1,8 @@
 .json-generated-container{
     min-height: 80px;
+    max-height: 270px;
     background-color: #161f2f;
+    overflow-y: auto;
     border-radius: 16px;
     color: #00FF00;
 }
