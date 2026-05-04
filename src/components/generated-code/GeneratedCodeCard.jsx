@@ -1,8 +1,8 @@
 import "./GeneratedCodeCard.css";
 
-function GeneratedCodeCard() {
+function GeneratedCodeCard({changeLogData}) {
   return (
-    <>
+    
       <div className="card-container generated-code-card-container pa-7">
         <div className="d-flex align-items-center justify-space-between">
           <div className="dark-purple-color font-weight-800 fs-17">Generated JSON</div>
@@ -16,11 +16,11 @@ function GeneratedCodeCard() {
           </div>
         </div>
 
-        <div className="json-generated-container mt-4 pa-5">
-          change-log
-        </div>
+        <pre className="json-generated-container mt-4 pa-5">
+          {changeLogData ? JSON.stringify(changeLogData, null, 2) : '{ }'}
+        </pre>
       </div>
-    </>
+   
   )
 }
 
