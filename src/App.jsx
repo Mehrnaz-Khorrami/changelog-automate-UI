@@ -1,9 +1,11 @@
 import FormCard from "./components/form/FormCard";
 import GeneratedCodeCard from "./components/generated-code/GeneratedCodeCard";
 import "./App.css"
+import { useState } from "react";
 function App() {
+  const [changeLogData, setChangeLogData] = useState(null)
   return (
-    <>
+    
       <div className="main-container d-flex flex-column align-items-center justify-center">
         <div className="file-code-container">
           <img src="/src/assets/icons/file-code.svg" width={35} height={35} />
@@ -13,11 +15,11 @@ function App() {
 
 
         <div className=" d-flex align-items-center mt-11">
-          <FormCard />
-          <GeneratedCodeCard />
+          <FormCard setChangeLogData={setChangeLogData}/>
+          <GeneratedCodeCard changeLogData={changeLogData}/>
         </div>
       </div>
-    </>
+    
   )
 }
 
