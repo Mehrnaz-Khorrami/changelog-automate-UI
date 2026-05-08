@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import "./FormCard.css";
 import CircularLoader from "../shared/CircularLoader";
@@ -37,6 +36,7 @@ function FormCard({setChangeLogData}) {
       setLoading(false);
     }
   };
+  
   return (
     <form onSubmit={handleSubmit}>
       <div className="card-container mr-6 pa-7">

@@ -10,7 +10,7 @@
 .copy-button{
     border-radius: 16px;
     height: 40px;
-    width: 72px;
+    width: 82px;
     padding: 0 10px;
     cursor: copy;
     background-image: linear-gradient(to right, rgba(216, 215, 215, 0.382), rgb(169, 168, 168)) !important;
